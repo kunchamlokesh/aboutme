@@ -1,5 +1,5 @@
+# Edit your vercel.json to:
 {
   "buildCommand": "next build",
-  "outputDirectory": ".next/standalone",
-  "framework": "nextjs"
+  "outputDirectory": ".next"
 }
