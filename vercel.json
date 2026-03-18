@@ -1,1 +1,5 @@
-{\n  "version": 2,\n  "builds": [\n    {\n      "src": "next.config.js",\n      "use": "@vercel/next"\n    }\n  ],\n  "routes": [\n    {\n      "src": "/(.*)",\n      "dest": "/$1"\n    }\n  ],\n  "outputDirectory": ".next"\n}
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next/standalone",
+  "framework": "nextjs"
+}
