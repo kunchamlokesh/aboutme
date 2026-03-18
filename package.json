@@ -1,1 +1,26 @@
-{\n  "name": "your-portfolio-app",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "dev": "next dev",\n    "build": "next build",\n    "start": "next start"\n  },\n  "dependencies": {\n    "next": "latest",\n    "react": "latest",\n    "react-dom": "latest",\n    "tailwindcss": "latest",\n    "postcss": "latest",\n    "autoprefixer": "latest"\n  }\n}
+{
+  "name": "lokesh-portfolio",
+  "version": "1.0.0",
+  "description": "Lokesh Kuncham - GenAI QA Expert Portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^15.1.0",
+    "typescript": "^5.6.3",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
+}
